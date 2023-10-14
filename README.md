@@ -1,18 +1,48 @@
-# MySQL on Render
+# teamproject-backend-1
 
-This is a template repository for running [MySQL](https://www.mysql.com) on Render. 
+## This is a REST API's for project Goose Track. [Goose Track API Documentation in Swagger](https://goose-track-gr25.onrender.com/api-docs/)
 
-* It uses the [official](https://hub.docker.com/r/mysql/mysql-server) MySQL Docker image.
+It is the task tracker with personal to-do list. The project provides for the possibility of user registration, authentication and authorization. In addition, users can create and track their tasks, assign them by completion status, view their completion statistics over a period of time, and edit and delete their tasks.
 
-* [Render Disks](https://render.com/docs/disks) provide fast, persistent SSD storage for your database.
+### Functional capabilities:
 
-* MySQL runs in your [private network](https://render.com/docs/private-services) and isn't exposed to the public Internet.
+User registration and authorization
 
-## MySQL Versions
-The `master` branch runs MySQL 8. You can use the `mysql-5` branch to run MySQL 5 instead.
+Ability to edit user profile and add review
 
-## Deployment
+Add, view, edit and delete tasks
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/mysql)
+Task selection by date, possibility to determine/redefine priority and execution status
 
-See https://render.com/docs/deploy-mysql.
+Display of statistics for a certain period by execution statuses
+
+Ability to display the tasks on the calendar
+
+Ability to display tasks in a list by execution status
+
+### The technology stack used in the project:
+
+Node.js - JavaScript runtime on the server
+
+Express.js - a framework for developing web applications on Node.js
+
+MongoDB - NoSQL Database
+
+Mongoose - a library for working with MongoDB in Node.js
+
+## Developers:
+
+1. [Hanna Vakulenko](https://github.com/HannaVakulenko)
+2. [Dmitro Smirnov](https://github.com/Lucky13identify)
+3. [Mykhailo kleban](https://github.com/DarkSwarp)
+4. [Dmytro Petrenko](https://github.com/petrenkodmytro)
+5. [Oleksandra Selezen](https://github.com/sandra-selezen)
+6. [Ann Dolbina](https://github.com/Dolbina)
+7. [Oleh Protasevych](https://github.com/ProtasevichOleg)
+8. [Aleksandr Lupu](https://github.com/Lupushor)
+9. [Ksenia Fihas](https://github.com/KseniaFihas)
+10. [Dmytro Mykolaichuk](https://github.com/DmytroMykolaichuk)
+11. [Sasha Hil](https://github.com/SashaHil)
+12. [Lina Myrhorodska](https://github.com/LinaMyrhorodska)
+13. [Sergiy Donyk](https://github.com/Donyk-s)
+
